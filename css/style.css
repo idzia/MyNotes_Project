@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+    font-family: Chilanka;
+    font-size: 14px;
+    color:#ffffff;
+    background:#333333 url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+   padding: 20px;
+   height: 100%;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-position: center; 
+}
+
+h1 {
+    padding: 5px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+input {
+    font-family: Chilanka;
+    font-size: 20px;
+    width: 190px;
+    background: yellow;
+    display: block;
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid yellow;
+    border-radius: 3px;
+}
+
+textarea {
+    font-family: Chilanka;
+    color: #333333;
+    background: yellow;
+    display: block;
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid yellow;
+    border-radius: 3px;
+}
+
+.note {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #777;
+    background: yellow;
+    float: left;
+    width: 230px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+button {
+    color: white;
+    border: 1px solid #34333a;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    background: url('../img/add.png');
+    background-position: center; 
+    background-repeat: no-repeat;  
+}
+
+button.remove {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background:yellow url('../img/done.png');
+    background-repeat: no-repeat;  
+    border: 1px solid yellow;
+    margin-bottom: 5px;
+    padding: 1px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;    
+}
+
+.clr {
+    clear: both;
+}
